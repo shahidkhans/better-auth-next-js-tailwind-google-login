@@ -2,6 +2,17 @@
 
 ![image](docs/better-auth-next-js-tailwind-google-login.png)
 ## Getting Started
+
+clone the repository rename `envsample` to `.env` and add your Google OAuth credentials:
+https://developers.google.com/identity/protocols/oauth2
+
+added redirect and authredirect urls in the google cloud console.
+
+update the google oauth credentials in the .env file:
+```bash
+GOOGLE_CLIENT_ID="your-google-client-id"
+GOOGLE_CLIENT_SECRET="your-google-client-secret"
+```
 Install the npm dependencies:
 ```bash
 npm install
